@@ -1,0 +1,29 @@
+.background {
+    -fx-background-radius: 10 0 10 0;
+    -fx-background-color: #3c3c3d;
+}
+.text-clock {
+    -fx-text-fill: #FFFFFF; /* Màu chữ */
+    -fx-font-size: 15px; /* Kích thước font chữ */
+}
+.boder-pane {
+    -fx-background-radius: 10 10 10 10;
+    -fx-background-color: #5cd0ea;
+}
+.inside-pane {
+    -fx-background-radius: 0 10 0 10;
+    -fx-background-color: linear-gradient(to right, rgba(21, 182, 158, 0.96), #5277f6);
+}
+.-rara-text-field {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 15px;
+    -fx-background-radius: 3 3 3 3;
+    -fx-effect: dropshadow(three-pass-box, #6262e7, 0, 4, 0,4);
+    -fx-background-color: #adbaef;
+}
+.add-button{
+    -fx-background-radius: 0 0 0 0;
+    -fx-background-color: #2129b7;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
